@@ -1,0 +1,26 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #3c32a7;
+}
+canvas {
+  display: block;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  border: 5px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+#header
+{
+  font-size: 40px;
+  font-family: 'Cherry Bomb One', cursive;
+  background: linear-gradient(to right,#ff0505,#fffb00);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-decoration: underline;
+}
